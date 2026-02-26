@@ -17,3 +17,6 @@ user/usys.S
 .gdbinit
 TAGS
 .DS_Store
+test-xv6.py
+grade-lab-util
+gradelib.py
