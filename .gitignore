@@ -20,3 +20,5 @@ TAGS
 test-xv6.py
 grade-lab-util
 gradelib.py
+INSTRUCTIONS.md
+xv6.out
