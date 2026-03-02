@@ -18,7 +18,11 @@ int main(int argc, char *argv[]) {
     int parent = getpid();
     int child = fork();
 
-    if (child != 0) {
+    if (child  == -1) {
+        fprintf(2, "error during fork");
+        exit(1);
+    }
+    else if (child != 0) {
         close(ping[0]);
         int buf[1];
         buf[0] = parent;
